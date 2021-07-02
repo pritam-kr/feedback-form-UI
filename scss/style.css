@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+.container {
+  width: 100%;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-container {
+  border: 0px solid rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+  background-color: #fff;
+  width: 400px;
+}
+
+.form-container header {
+  padding: 20px;
+  width: 100%;
+  background-color: #1b90fd;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fff;
+}
+
+.form-container header h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.form-container form {
+  padding: 20px;
+}
+
+.form-container form h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.emoji-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emoji-container div {
+  font-size: 1.7rem;
+  margin-right: 10px;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.emoji-container .emoji {
+  cursor: pointer;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.emoji-container .active {
+  -webkit-box-shadow: 0 0px 5px 4px rgba(0, 0, 0, 0.205);
+          box-shadow: 0 0px 5px 4px rgba(0, 0, 0, 0.205);
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.3px solid rgba(0, 0, 0, 0.445);
+  background-color: rgba(6, 105, 197, 0.096);
+}
+
+form input:focus {
+  outline: 0;
+}
+
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 0.3px solid rgba(0, 0, 0, 0.445);
+  padding: 20px 10px;
+  background-color: rgba(6, 105, 197, 0.096);
+}
+
+form textarea:focus {
+  outline: none;
+}
+
+form .send-feedback {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 0.3px solid rgba(0, 0, 0, 0);
+  font-size: 1.05rem;
+  background-color: #0357a5;
+  color: #fff;
+  cursor: pointer;
+}
+
+form .send-feedback:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+/*# sourceMappingURL=style.css.map */
